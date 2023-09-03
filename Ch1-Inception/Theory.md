@@ -37,9 +37,9 @@
       </ul>
      </nav>
     </header>
-   ```
-
-   > **siblings** : header+main+footer -
+    ```
+    
+ > **siblings** : header+main+footer 
   ### _Syntax_ 
     ```sh
     <header></header>
