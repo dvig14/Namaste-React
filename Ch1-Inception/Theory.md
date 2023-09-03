@@ -16,35 +16,35 @@
    - **class+id** : div.class-1.class-2#id-1 
    ### _Syntax_ 
     ```sh
-    <div class='class-1 class-2' id='id-1'></span>
+      <div class='class-1 class-2' id='id-1'></span>
     ```
 
    - **button** : [button type = 'button'] 
   ### _Syntax_ 
     ```sh
-    <button type='button'></button>
+      <button type='button'></button>
     ```
 
    - **child** : header>nav>ul>li*3 
   ### _Syntax_ 
     ```sh  
-    <header>
-     <nav>
-      <ul>
-       <li></li>
-       <li></li>
-       <li></li>
-      </ul>
-     </nav>
-    </header>
+     <header>
+      <nav>
+       <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+       </ul>
+      </nav>
+     </header>
     ```
     
  - **siblings** : header+main+footer 
   ### _Syntax_ 
     ```sh
-    <header></header>
-    <main></main>
-    <footer></footer>
+     <header></header>
+     <main></main>
+     <footer></footer>
     ```
 
 
@@ -98,19 +98,19 @@ interfaces.
                         and start fetching the script from network and runs it in browser. Once complete script execution,`parsing` starts again.
  ### _Syntax_ 
     ```sh
-    <script src= " " >
+      <script src= " " >
     ```
 
 - **Async** : HTML parsing browser along with parallel fetching of  `script` and as soon as `script` available in browser
               `parsing` stops and script execute.Once complete script execution,`parsing` starts again.
 ### _Syntax_ 
     ```sh
-    <script async src= " " >
+      <script async src= " " >
     ```
 
 - **Defer** : HTML parsing browser along with parallel fetching of  `script` and as soon as `parsing` completes 
               `script executes` in browser.
 ### _Syntax_ 
     ```sh
-    <script defer src= " " >
+      <script defer src= " " >
     ```
