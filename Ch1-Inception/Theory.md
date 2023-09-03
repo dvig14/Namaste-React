@@ -9,25 +9,25 @@
 
    - **id** : span#purple 
   ### _Syntax_ 
-   ```sh
+  ```sh
     <span id='purple'></span>
-   ```
+  ```
 
    - **class+id** : div.class-1.class-2#id-1 
    ### _Syntax_ 
-    ```sh
-      <div class='class-1 class-2' id='id-1'></span>
-    ```
+   ```sh
+       <div class='class-1 class-2' id='id-1'></span>
+   ```
 
    - **button** : [button type = 'button'] 
   ### _Syntax_ 
-    ```sh
+   ```sh
       <button type='button'></button>
-    ```
+   ```
 
    - **child** : header>nav>ul>li*3 
   ### _Syntax_ 
-    ```sh  
+   ```sh  
      <header>
       <nav>
        <ul>
@@ -37,15 +37,15 @@
        </ul>
       </nav>
      </header>
-    ```
+   ```
     
  - **siblings** : header+main+footer 
   ### _Syntax_ 
-    ```sh
+   ```sh
      <header></header>
      <main></main>
      <footer></footer>
-    ```
+   ```
 
 
 ## 2. Difference b/w library and framework ?
@@ -97,20 +97,20 @@ interfaces.
 - **Normal Scenario** : HTML parsing browser line by line and `script tag` encounter. `Browser` stop `parsing` at that point
                         and start fetching the script from network and runs it in browser. Once complete script execution,`parsing` starts again.
  ### _Syntax_ 
-    ```sh
+  ```sh
       <script src= " " >
-    ```
+  ```
 
 - **Async** : HTML parsing browser along with parallel fetching of  `script` and as soon as `script` available in browser
               `parsing` stops and script execute.Once complete script execution,`parsing` starts again.
 ### _Syntax_ 
-    ```sh
+ ```sh
       <script async src= " " >
-    ```
+ ```
 
 - **Defer** : HTML parsing browser along with parallel fetching of  `script` and as soon as `parsing` completes 
               `script executes` in browser.
 ### _Syntax_ 
-    ```sh
+ ```sh
       <script defer src= " " >
-    ```
+ ```
