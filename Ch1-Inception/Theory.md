@@ -1,31 +1,31 @@
 ## 1. What is Emmet?
 =  > `Emmet` is in-built function that write code you don't need to write it .Make HTML faster.
-   > **boilerplate** : !+Enter
-   > **class** : span.purple 
+   - **boilerplate** : !+Enter
+   - **class** : span.purple 
   ### _Syntax_ 
    ```sh
     <span class='purple'></span>
    ```
 
-   > **id** : span#purple 
+   - **id** : span#purple 
   ### _Syntax_ 
    ```sh
     <span id='purple'></span>
    ```
 
-   > **class+id** : div.class-1.class-2#id-1 
+   - **class+id** : div.class-1.class-2#id-1 
    ### _Syntax_ 
     ```sh
     <div class='class-1 class-2' id='id-1'></span>
     ```
 
-   > **button** : [button type = 'button'] 
+   - **button** : [button type = 'button'] 
   ### _Syntax_ 
     ```sh
     <button type='button'></button>
     ```
 
-   > **child** : header>nav>ul>li*3 
+   - **child** : header>nav>ul>li*3 
   ### _Syntax_ 
     ```sh  
     <header>
@@ -39,7 +39,7 @@
     </header>
     ```
     
- > **siblings** : header+main+footer 
+ - **siblings** : header+main+footer 
   ### _Syntax_ 
     ```sh
     <header></header>
